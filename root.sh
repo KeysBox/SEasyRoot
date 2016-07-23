@@ -24,7 +24,7 @@ rm -rf /etc/ssh/sshd_config
 cp ~/SEasyRoot/sshd_config /etc/ssh/
 
 # 添加sshd配置文件读写模式
-chmod 644 sshd_config
+chmod 644 /etc/ssh/sshd_config
 
 # 重新启动服务器ssh服务
 systemctl restart sshd.service
