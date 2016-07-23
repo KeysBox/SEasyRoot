@@ -21,7 +21,7 @@ chmod 600 ~/.ssh
 rm -rf /etc/ssh/sshd_config
 
 # 导入sshd新配置文件
-cp ~/SEasyRoot/sshd_comfig /etc/ssh/
+cp ~/SEasyRoot/sshd_config /etc/ssh/
 
 # 添加sshd配置文件读写模式
 chmod 644 sshd_config
